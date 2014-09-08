@@ -31,6 +31,9 @@ function gsb_feature_taxonomy_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'insight_topics_action' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
@@ -42,6 +45,10 @@ function gsb_feature_taxonomy_strongarm() {
           ),
           'insight_topics' => array(
             'weight' => '1',
+            'visible' => FALSE,
+          ),
+          'insight_topics_action' => array(
+            'weight' => '0',
             'visible' => FALSE,
           ),
         ),
@@ -71,6 +78,9 @@ function gsb_feature_taxonomy_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'insight_topics_action' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
@@ -81,6 +91,10 @@ function gsb_feature_taxonomy_strongarm() {
             'visible' => TRUE,
           ),
           'insight_topics' => array(
+            'weight' => '1',
+            'visible' => FALSE,
+          ),
+          'insight_topics_action' => array(
             'weight' => '1',
             'visible' => FALSE,
           ),
@@ -111,6 +125,9 @@ function gsb_feature_taxonomy_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'insight_topics_action' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
@@ -121,6 +138,10 @@ function gsb_feature_taxonomy_strongarm() {
             'visible' => TRUE,
           ),
           'insight_topics' => array(
+            'weight' => '1',
+            'visible' => FALSE,
+          ),
+          'insight_topics_action' => array(
             'weight' => '1',
             'visible' => FALSE,
           ),
