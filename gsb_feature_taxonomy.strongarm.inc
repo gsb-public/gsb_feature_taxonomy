@@ -40,8 +40,8 @@ function gsb_feature_taxonomy_strongarm() {
       'display' => array(
         'description' => array(
           'default' => array(
-            'weight' => '0',
-            'visible' => TRUE,
+            'weight' => '2',
+            'visible' => FALSE,
           ),
           'insight_topics' => array(
             'weight' => '1',
@@ -88,7 +88,7 @@ function gsb_feature_taxonomy_strongarm() {
         'description' => array(
           'default' => array(
             'weight' => '0',
-            'visible' => TRUE,
+            'visible' => FALSE,
           ),
           'insight_topics' => array(
             'weight' => '1',
@@ -134,8 +134,8 @@ function gsb_feature_taxonomy_strongarm() {
       'display' => array(
         'description' => array(
           'default' => array(
-            'weight' => '0',
-            'visible' => TRUE,
+            'weight' => '1',
+            'visible' => FALSE,
           ),
           'insight_topics' => array(
             'weight' => '1',
