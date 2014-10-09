@@ -87,7 +87,7 @@ function gsb_feature_taxonomy_strongarm() {
       'display' => array(
         'description' => array(
           'default' => array(
-            'weight' => '0',
+            'weight' => '2',
             'visible' => FALSE,
           ),
           'insight_topics' => array(
@@ -134,7 +134,7 @@ function gsb_feature_taxonomy_strongarm() {
       'display' => array(
         'description' => array(
           'default' => array(
-            'weight' => '1',
+            'weight' => '2',
             'visible' => FALSE,
           ),
           'insight_topics' => array(
