@@ -458,55 +458,6 @@ function gsb_feature_taxonomy_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_taxonomy_term__panopoly_categories';
-  $strongarm->value = array(
-    'view_modes' => array(
-      'full' => array(
-        'custom_settings' => FALSE,
-      ),
-      'token' => array(
-        'custom_settings' => FALSE,
-      ),
-      'ical' => array(
-        'custom_settings' => FALSE,
-      ),
-      'diff_standard' => array(
-        'custom_settings' => FALSE,
-      ),
-      'insight_topics' => array(
-        'custom_settings' => FALSE,
-      ),
-      'insight_topics_action' => array(
-        'custom_settings' => FALSE,
-      ),
-    ),
-    'extra_fields' => array(
-      'form' => array(
-        'path' => array(
-          'weight' => '3',
-        ),
-        'name' => array(
-          'weight' => '0',
-        ),
-        'description' => array(
-          'weight' => '2',
-        ),
-      ),
-      'display' => array(
-        'description' => array(
-          'default' => array(
-            'weight' => '1',
-            'visible' => FALSE,
-          ),
-        ),
-      ),
-    ),
-  );
-  $export['field_bundle_settings_taxonomy_term__panopoly_categories'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_taxonomy_term__program';
   $strongarm->value = array(
     'view_modes' => array(

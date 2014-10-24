@@ -291,59 +291,6 @@ function gsb_feature_taxonomy_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'taxonomy_term-panopoly_categories-field_featured_image'
-  $field_instances['taxonomy_term-panopoly_categories-field_featured_image'] = array(
-    'bundle' => 'panopoly_categories',
-    'deleted' => 0,
-    'description' => 'This is the primary image to be associated with the taxonomy term',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'image',
-        'settings' => array(
-          'conditions' => array(),
-          'image_link' => '',
-          'image_style' => 'panopoly_image_quarter',
-        ),
-        'type' => 'image',
-        'weight' => 0,
-      ),
-      'featured' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'taxonomy_term',
-    'field_name' => 'field_featured_image',
-    'label' => 'Image',
-    'required' => 0,
-    'settings' => array(
-      'alt_field' => 1,
-      'custom_add_another' => '',
-      'custom_remove' => '',
-      'default_image' => 0,
-      'file_directory' => 'categories',
-      'file_extensions' => 'png gif jpg jpeg',
-      'max_filesize' => '',
-      'max_resolution' => '',
-      'min_resolution' => '300x200',
-      'title_field' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'image',
-      'settings' => array(
-        'preview_image_style' => 'panopoly_image_thumbnail',
-        'progress_indicator' => 'throbber',
-      ),
-      'type' => 'image_image',
-      'weight' => 1,
-    ),
-  );
-
   // Exported field_instance: 'taxonomy_term-region_interest-field_action'
   $field_instances['taxonomy_term-region_interest-field_action'] = array(
     'bundle' => 'region_interest',
