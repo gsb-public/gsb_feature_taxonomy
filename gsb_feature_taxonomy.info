@@ -54,6 +54,7 @@ features[taxonomy][] = business_website_categories
 features[taxonomy][] = centers_research_programs
 features[taxonomy][] = club_category
 features[taxonomy][] = company_organization
+features[taxonomy][] = cta_action
 features[taxonomy][] = department
 features[taxonomy][] = discipline
 features[taxonomy][] = event_category

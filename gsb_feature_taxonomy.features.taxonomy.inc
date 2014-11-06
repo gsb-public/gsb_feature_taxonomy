@@ -57,6 +57,14 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'cta_action' => array(
+      'name' => 'CTA Action',
+      'machine_name' => 'cta_action',
+      'description' => '',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
     'department' => array(
       'name' => 'Department',
       'machine_name' => 'department',
