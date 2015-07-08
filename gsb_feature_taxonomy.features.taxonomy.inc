@@ -73,6 +73,14 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'department_office' => array(
+      'name' => 'Department/Office',
+      'machine_name' => 'department_office',
+      'description' => 'Department/Office taxonomy.',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
     'discipline' => array(
       'name' => 'Discipline',
       'machine_name' => 'discipline',
