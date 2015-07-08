@@ -35,6 +35,7 @@ features[ds_layout_settings][] = taxonomy_term|region_interest|insight_topics_ac
 features[ds_view_modes][] = insight_topics
 features[ds_view_modes][] = insight_topics_action
 features[features_api][] = api:2
+features[field_base][] = field_admission_event_base_path
 features[field_base][] = field_featured_image
 features[field_base][] = field_gip_program_value
 features[field_base][] = field_workbench_section_path
