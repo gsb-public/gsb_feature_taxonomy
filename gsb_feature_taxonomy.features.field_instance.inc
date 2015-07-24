@@ -519,8 +519,8 @@ function gsb_feature_taxonomy_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'taxonomy_term-timezone-field_cvent_timezone'
-  $field_instances['taxonomy_term-timezone-field_cvent_timezone'] = array(
+  // Exported field_instance: 'taxonomy_term-timezone-field_drupal_timezone'
+  $field_instances['taxonomy_term-timezone-field_drupal_timezone'] = array(
     'bundle' => 'timezone',
     'custom_add_another' => '',
     'custom_remove' => '',
@@ -540,8 +540,8 @@ function gsb_feature_taxonomy_field_default_field_instances() {
     ),
     'ds_extras_field_template' => '',
     'entity_type' => 'taxonomy_term',
-    'field_name' => 'field_cvent_timezone',
-    'label' => 'Cvent Timezone',
+    'field_name' => 'field_drupal_timezone',
+    'label' => 'Drupal Timezone',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
@@ -616,7 +616,7 @@ function gsb_feature_taxonomy_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -714,7 +714,7 @@ function gsb_feature_taxonomy_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Action');
   t('Admission event base path');
-  t('Cvent Timezone');
+  t('Drupal Timezone');
   t('GIP Program Option Value');
   t('If checked a menu will be created for this section. If you uncheck this after it has been checked the menu will not be deleted. It will have to be manually deleted.');
   t('Menu Location');
