@@ -169,6 +169,14 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'timezone' => array(
+      'name' => 'Timezone',
+      'machine_name' => 'timezone',
+      'description' => 'Hold values for cvent timezone and drupal timezone',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
     'workbench_sections' => array(
       'name' => 'Workbench Sections',
       'machine_name' => 'workbench_sections',
