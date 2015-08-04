@@ -39,17 +39,17 @@ function gsb_feature_taxonomy_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_drupal_timezone',
     'indexes' => array(
-      'format' => array(
-        0 => 'format',
+      'value' => array(
+        0 => 'value',
       ),
     ),
     'locked' => 0,
-    'module' => 'text',
+    'module' => 'tzfield',
     'settings' => array(
-      'max_length' => 255,
+      'exclude' => array(),
     ),
     'translatable' => 0,
-    'type' => 'text',
+    'type' => 'tzfield',
   );
 
   // Exported field_base: 'field_featured_image'
