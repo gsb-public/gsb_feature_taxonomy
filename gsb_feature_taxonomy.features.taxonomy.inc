@@ -41,6 +41,14 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
+    'circle_topics' => array(
+      'name' => 'CIRCLE Topics',
+      'machine_name' => 'circle_topics',
+      'description' => '',
+      'hierarchy' => 0,
+      'module' => 'taxonomy',
+      'weight' => 0,
+    ),
     'club_category' => array(
       'name' => 'Club Category',
       'machine_name' => 'club_category',
