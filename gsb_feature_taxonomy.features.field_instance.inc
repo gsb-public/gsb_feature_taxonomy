@@ -406,12 +406,21 @@ function gsb_feature_taxonomy_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'short_name' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_plain',
         'weight' => 0,
       ),
     ),

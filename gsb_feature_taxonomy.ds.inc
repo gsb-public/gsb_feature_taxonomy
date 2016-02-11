@@ -100,6 +100,23 @@ function gsb_feature_taxonomy_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'taxonomy_term|program_category|short_name';
+  $ds_fieldsetting->entity_type = 'taxonomy_term';
+  $ds_fieldsetting->bundle = 'program_category';
+  $ds_fieldsetting->view_mode = 'short_name';
+  $ds_fieldsetting->settings = array(
+    'field_short_name' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+        ),
+      ),
+    ),
+  );
+  $export['taxonomy_term|program_category|short_name'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'taxonomy_term|region_interest|insight_topics';
   $ds_fieldsetting->entity_type = 'taxonomy_term';
   $ds_fieldsetting->bundle = 'region_interest';
@@ -294,6 +311,34 @@ function gsb_feature_taxonomy_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'taxonomy_term|program_category|short_name';
+  $ds_layout->entity_type = 'taxonomy_term';
+  $ds_layout->bundle = 'program_category';
+  $ds_layout->view_mode = 'short_name';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'field_short_name',
+      ),
+    ),
+    'fields' => array(
+      'field_short_name' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['taxonomy_term|program_category|short_name'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'taxonomy_term|region_interest|insight_topics';
   $ds_layout->entity_type = 'taxonomy_term';
   $ds_layout->bundle = 'region_interest';
@@ -374,6 +419,15 @@ function gsb_feature_taxonomy_ds_view_modes_info() {
     'taxonomy_term' => 'taxonomy_term',
   );
   $export['insight_topics_action'] = $ds_view_mode;
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'short_name';
+  $ds_view_mode->label = 'Short name';
+  $ds_view_mode->entities = array(
+    'taxonomy_term' => 'taxonomy_term',
+  );
+  $export['short_name'] = $ds_view_mode;
 
   return $export;
 }
