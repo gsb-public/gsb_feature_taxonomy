@@ -95,6 +95,7 @@ features[variable][] = field_bundle_settings_taxonomy_term__event_category
 features[variable][] = field_bundle_settings_taxonomy_term__gip_programs
 features[variable][] = field_bundle_settings_taxonomy_term__industry
 features[variable][] = field_bundle_settings_taxonomy_term__program
+features[variable][] = field_bundle_settings_taxonomy_term__program_category
 features[variable][] = field_bundle_settings_taxonomy_term__region
 features[variable][] = field_bundle_settings_taxonomy_term__region_interest
 features[variable][] = field_bundle_settings_taxonomy_term__research_databases
