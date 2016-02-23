@@ -460,19 +460,19 @@ function gsb_feature_taxonomy_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '5',
+          'weight' => '9',
         ),
         'path' => array(
-          'weight' => '4',
+          'weight' => '8',
         ),
         'redirect' => array(
-          'weight' => '3',
+          'weight' => '7',
         ),
         'name' => array(
           'weight' => '0',
         ),
         'description' => array(
-          'weight' => '2',
+          'weight' => '6',
         ),
       ),
       'display' => array(
