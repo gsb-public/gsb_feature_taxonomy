@@ -1,7 +1,7 @@
 name = GSB Feature Taxonomy
 core = 7.x
 package = GSB
-version = 7.x-5.05
+version = 7.x-5.06
 project = gsb_feature_taxonomy
 dependencies[] = ctools
 dependencies[] = defaultconfig
@@ -17,7 +17,7 @@ dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = tzfield
-datestamp = 1455924551
+datestamp = 1456332467
 features[ctools][] = ds:ds:1
 features[ctools][] = strongarm:strongarm:1
 features[ds_field_settings][] = taxonomy_term|academic_area|insight_topics

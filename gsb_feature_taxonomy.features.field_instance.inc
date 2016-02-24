@@ -773,7 +773,7 @@ function gsb_feature_taxonomy_field_default_field_instances() {
     'label' => 'Program Listing Page URL',
     'required' => 0,
     'settings' => array(
-      'absolute_url' => 1,
+      'absolute_url' => 0,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,
