@@ -18,7 +18,7 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'weight' => 0,
     ),
     'business_insight_topic' => array(
-      'name' => 'Business Insight Topic',
+      'name' => 'Additional Topics',
       'machine_name' => 'business_insight_topic',
       'description' => '',
       'hierarchy' => 0,
@@ -34,7 +34,7 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'weight' => 0,
     ),
     'career_level' => array(
-      'name' => 'Career Level',
+      'name' => 'Program Career Level',
       'machine_name' => 'career_level',
       'description' => '',
       'hierarchy' => 0,
@@ -122,7 +122,7 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'weight' => 0,
     ),
     'key_program_topic' => array(
-      'name' => 'Key Program Topic',
+      'name' => 'Program Key Topic',
       'machine_name' => 'key_program_topic',
       'description' => '',
       'hierarchy' => 0,
@@ -130,7 +130,7 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'weight' => 0,
     ),
     'leadership_level' => array(
-      'name' => 'Leadership Level',
+      'name' => 'Program Leadership Level',
       'machine_name' => 'leadership_level',
       'description' => '',
       'hierarchy' => 0,
