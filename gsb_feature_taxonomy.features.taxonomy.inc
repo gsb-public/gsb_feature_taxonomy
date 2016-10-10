@@ -169,14 +169,6 @@ function gsb_feature_taxonomy_taxonomy_default_vocabularies() {
       'module' => 'taxonomy',
       'weight' => 0,
     ),
-    'region_interest' => array(
-      'name' => 'Region of Interest',
-      'machine_name' => 'region_interest',
-      'description' => 'Region of Interest taxonomy.',
-      'hierarchy' => 0,
-      'module' => 'taxonomy',
-      'weight' => 0,
-    ),
     'research_databases' => array(
       'name' => 'Research Databases',
       'machine_name' => 'research_databases',

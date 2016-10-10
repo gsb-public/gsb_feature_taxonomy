@@ -494,53 +494,6 @@ function gsb_feature_taxonomy_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_taxonomy_term__region_interest';
-  $strongarm->value = array(
-    'view_modes' => array(
-      'insight_topics' => array(
-        'custom_settings' => TRUE,
-      ),
-      'full' => array(
-        'custom_settings' => FALSE,
-      ),
-      'ical' => array(
-        'custom_settings' => FALSE,
-      ),
-      'diff_standard' => array(
-        'custom_settings' => FALSE,
-      ),
-      'token' => array(
-        'custom_settings' => FALSE,
-      ),
-      'insight_topics_action' => array(
-        'custom_settings' => TRUE,
-      ),
-    ),
-    'extra_fields' => array(
-      'form' => array(),
-      'display' => array(
-        'description' => array(
-          'default' => array(
-            'weight' => '2',
-            'visible' => FALSE,
-          ),
-          'insight_topics' => array(
-            'weight' => '1',
-            'visible' => FALSE,
-          ),
-          'insight_topics_action' => array(
-            'weight' => '1',
-            'visible' => FALSE,
-          ),
-        ),
-      ),
-    ),
-  );
-  $export['field_bundle_settings_taxonomy_term__region_interest'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_taxonomy_term__research_databases';
   $strongarm->value = array(
     'view_modes' => array(
